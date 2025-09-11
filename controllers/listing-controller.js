@@ -10,7 +10,7 @@ const { ListingsModel, ListingCarGalleryImages } = require('../database');
 
 function buildFullUrl(filePath) {
   if (!filePath) return null;
-  // Convert Windows backslashes to forward slashes for URL
+  // Convert Windows backslashes to forward slashes for URL test
   const normalizedPath = filePath.replace(/\\/g, '/');
   return `${liveBaseUrl}/${normalizedPath}`;
 }
