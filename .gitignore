@@ -1,0 +1,9 @@
+/.idea
+/node_modules/
+/tmp/*
+/public/storage/
+/logs/*
+.env
+uploads/
+package-lock.json
+yarn.lock

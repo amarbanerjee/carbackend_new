@@ -1,0 +1,4 @@
+{
+  "watch": ["routes", "database", "app.js"],
+  "ignore": ["logs/*", "uploads/*", "utilities/settingsConfig.js"]
+}
