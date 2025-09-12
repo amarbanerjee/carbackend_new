@@ -7,7 +7,7 @@ const fs = require("fs");
 const path = require("path");
 const morgan = require("morgan");
 
-// Initialize Settings
+// Initialize Settings Test test code pipelien
 const Settings = require("./utilities/settingsConfig");
 
 // Database and Associations
